@@ -1,0 +1,36 @@
+/* Cuerpo de el sitio web*/
+body{
+    /* fuente del texto*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* color de fondo*/
+    background-color: rgb(66, 65, 65);
+
+}
+
+/* modificar a algun contenedor*/
+.contenedor1 h1{
+    /* color */
+    color: rgb(236, 148, 16);
+    /* decoracion */
+    text-decoration: Underline;
+    /* alinear texto */ 
+    text-align: center;
+    
+
+}
+
+.contenedor1 h2{    
+    /* tamano */
+    /* px = renderizar en pixel segun resolucion */
+    /* em = medida proporcionada al dipositivo 1em = 16 px */
+    font-size: 20 px;
+}
+
+.contenedor1 p{
+    text-decoration: line-through;
+}
+.contenedor1 a{
+    color: brown;
+    text-decoration: wavy;
+}
+
