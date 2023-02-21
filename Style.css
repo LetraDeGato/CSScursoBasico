@@ -3,7 +3,7 @@ body{
     /* fuente del texto*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* color de fondo*/
-    background-color: rgb(66, 65, 65);
+    background-color: rgb(145, 145, 145);
 
 }
 
@@ -34,3 +34,27 @@ body{
     text-decoration: wavy;
 }
 
+.contenedor2 {
+    font-size: 20px;
+    /* padding sirve para determinar el area de relleno del contenido y el borde */
+    padding: 10px;
+}
+
+
+.contenedor2 table{
+    padding: 10px;
+    /* Estilo de borde */
+    border-style: solid;
+    /* tamano de borde */
+    border-width: 4px;
+    /* coilor del borde */
+    border-color: rgb(161, 89, 230);
+    /* redondear bordes */
+    border-radius: 10px; 
+}
+/* Css nos permite simplificar codigo anadiendo una "," entre selectores*/
+.contenedor2 tr,th{
+    padding: 10px;
+/* Css tambien nos permite agrupar el estilo completo de bordes mediante la sigiente sintaxys */
+    border: solid 4px rebeccapurple;
+}
