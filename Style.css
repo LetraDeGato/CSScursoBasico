@@ -28,6 +28,7 @@ body{
 
 .contenedor1 p{
     text-decoration: line-through;
+    margin: 20px, 10px, 5px, 20px;
 }
 .contenedor1 a{
     color: brown;
@@ -36,8 +37,11 @@ body{
 
 .contenedor2 {
     font-size: 20px;
+
+    /* la sintaxys para modificar medidas se pueden realizar de manera general o a manera ordenada en las manesillas de el reloj empezando por la parte izquierda/*
     /* padding sirve para determinar el area de relleno del contenido y el borde */
     padding: 10px;
+    
 }
 
 
@@ -51,10 +55,13 @@ body{
     border-color: rgb(161, 89, 230);
     /* redondear bordes */
     border-radius: 10px; 
+    /* anade un espacio exterior de nuestro contenedor  */
+    margin: 20px, 10px, 5px, 20px;
 }
 /* Css nos permite simplificar codigo anadiendo una "," entre selectores*/
 .contenedor2 tr,th{
     padding: 10px;
 /* Css tambien nos permite agrupar el estilo completo de bordes mediante la sigiente sintaxys */
     border: solid 4px rebeccapurple;
+    
 }
