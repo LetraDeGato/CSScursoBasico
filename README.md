@@ -1,3 +1,3 @@
 # CSScursoCompleto
 
-## Archivos de ccs con el proposito de explicar CSS de 0 a Avanzado
+## Archivos de ccs con el proposito de explicar CSS para un principiante, y entender los conceptos basicos
